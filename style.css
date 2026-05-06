@@ -1,36 +1,65 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Atul Web Solutions</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
 
-<header>
-  <h1>Atul Web Solutions</h1>
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
+header {
+  background: #111827;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
 
-<section class="hero">
-  <h2>We Build Modern Websites</h2>
-  <p>Clean, responsive and user-friendly designs.</p>
-  <button>Get Started</button>
-</section>
+nav {
+  margin-top: 10px;
+}
 
-<section class="services">
-  <div class="card">Website Design</div>
-  <div class="card">E-commerce</div>
-  <div class="card">SEO Optimization</div>
-</section>
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-<section class="contact">
-  <h2>Contact Us</h2>
-  <p>Email: atul@email.com</p>
-</section>
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #2563eb, #1e3a8a);
+  color: white;
+}
 
-</body>
-</html>
+.hero button {
+  padding: 12px 24px;
+  border: none;
+  background: white;
+  color: #2563eb;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact {
+  text-align: center;
+  padding: 40px;
+  background: #111827;
+  color: white;
+}
